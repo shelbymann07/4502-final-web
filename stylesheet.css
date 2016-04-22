@@ -1,0 +1,428 @@
+/*Styles go here*/
+/*social media icons: http://sensationalfix.com/flat-social-icons-eps/*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-family: "Avenir", Helvetica, Arial, sans-serif;
+	font-size: 35px; 
+	padding-top: 25px; 
+	text-transform: uppercase; 	
+	letter-spacing: 2px;
+	font-weight: normal; 
+
+}
+
+h2 {
+	font-family: "Avenir", Helvetica, Arial, sans-serif;
+	font-size: 35px; 
+	text-transform: uppercase; 	
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: normal;
+	padding-top: 2%; 
+}
+
+h3 {
+	font-size:20px; 
+	line-height: 24px;
+	font-weight: normal;
+}
+
+h4 {
+	font-size:15px; 
+	font-weight: normal;
+	text-align: left;	
+	margin-left: 10%; 
+}
+
+#container {
+	background-color: white;
+	width: 100%; 
+	margin: 0 auto; 
+}
+
+
+#main {
+	/*background-color: #E8E8E8;*/
+	width: 100%;
+	float: left;
+}
+
+#main img {
+	width: 70%;
+	margin-left: 15%;
+	height: 5%;
+	padding-bottom: 1%;
+}
+
+#main a:link, #main a:visited {
+	font: "Avenir Light", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #1fbbc6;
+}
+
+#main a:hover, #main a:active {
+	color: grey;
+}
+
+#nav {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black; 
+}
+ 
+#nav ul {
+  margin: 0;
+  list-style: none;
+  color: #333;
+  background: black;
+  overflow: hidden;  
+}
+ 
+ 
+#nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+#nav li {
+	float: left;
+	margin: 0 0 0 120px; 
+}
+
+#nav a:link, #nav a:visited {
+	font: "Avenir Light", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: black; 
+	display: block;
+	text-align: center; 
+	text-decoration: none;
+	padding: 15px;
+}
+
+#nav a:hover, #nav a:active {
+	color: #1fbbc6;
+}
+
+#work pdf{
+	height: 1000px;
+}
+#homehead1 {
+	margin-top: 25%;
+	width: 100%;
+}
+
+#homehead2 {
+	width: 100%;
+}
+
+#homehead1 p {
+	font-size: 60px;
+	margin-right: 10%;
+	float: right;
+	text-align: left; 
+	text-transform: uppercase; 
+}
+
+#homehead2 p {
+	font-size: 60px;
+	margin-left: 20%;
+	margin-right: 14%;
+	float: right;
+	text-transform: uppercase; 
+}
+
+#homewords p {
+	font-size: 19px;
+	margin-left: 57%;
+	text-align: left; 
+	text-transform: capitalize; 
+}
+
+p, ul {
+	font-size: 14px; 
+}
+
+
+#col-one {
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+
+#col-two {
+	width: 50%;
+	float: right;  
+}
+
+#homeimg {
+	float: left; 
+	width: 400px;
+	margin-top: 13%;
+	margin-left: 5%;
+}
+
+#col-1 {
+	width: 75%;
+	margin: 0 auto;
+	float: left;
+}
+
+#col-2 {
+	width: 20%;
+	float: right;  
+	padding-right: 5%;
+}
+
+#about {
+	margin-left: 10%; 
+	margin-right: 15%;
+}
+
+#about, p{
+	font-size: 1em;
+}
+
+#resume, img{
+	width: 75%;
+}
+
+#resume, p {
+	margin-left: 5%;
+}
+
+#resume h2{
+	text-align: left;
+	font-size: 25px;
+}
+
+#resume h3{
+	font-size: 20px;
+	margin-left: 5%;
+}
+
+#resume h4{
+	font-size: 20px;
+	margin-left: 6%;
+}
+
+#resume li{
+	list-style-type: none;
+	margin-left: 6%;
+}
+
+.content {
+	width: 80%;
+	float: left;
+	margin-bottom: 60px;
+}
+
+.when h3{
+	width: 50%;
+	font-size: 15px;
+	color: grey;
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 2%;
+}
+
+.content h2{
+	font-size: 1.7em;
+	text-transform: none; 	
+	float: left;
+	margin-left: 10%;
+}
+
+.content p{
+	float: left;
+	margin-left: 10%;
+	font-size: 16px;
+	margin-bottom: 1%;
+}
+
+#twitter {
+	margin-top: 30%;
+}
+
+#col-1 a:link, #col-1 a:visited {
+	font: "Avenir Light", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #1fbbc6;
+}
+
+#col-1 a:hover, #col-1 a:active {
+	color: grey;
+}
+
+#footer {
+	padding-top: 2%;
+	margin-left: 38.5%;
+	float: left;
+}
+
+#share-buttons img {
+	width: 35px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+}
+
+#footer #share-buttons a img {
+	border: none;
+	opacity: .25;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* IE 8 hack */ 
+	filter: alpha(opacity = 50); /* IE 5-7 hack */
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+	-webkit-filter: grayscale(100%); 
+	}
+	
+#footer #share-buttons a:hover img {
+	opacity: 100;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* IE 8 hack */ 
+	filter: alpha(opacity = 100); /* IE 5-7 hack */
+	}
+	
+
+
+/* If the viewport width <= 700 pixels ... */
+ 
+ @media screen and (max-width: 700px) {
+	
+	#main {
+		width: 100%;
+	}
+	
+	#content .inner {
+		margin-right: 0; 
+	}
+	
+	#nav {
+		float: none; 
+		width: 100%;
+	}
+	
+	#nav li {
+		float: left; 
+		width: 24%; 
+		border-bottom: none;
+		text-decoration: none; 
+		list-style: none;
+	}
+
+	#nav a {
+		text-align: center; 
+		display: inline;
+		}
+		
+	#homeimg {
+	width: 100%;
+}
+	#twitter, #twitter1 {
+		display: none;
+	}
+	
+	#footer {
+	padding-top: 2%;
+	margin-left: 10%;
+	float: left;
+}
+	
+}
+
+/*If the viewport width <= 480px*/
+
+ @media screen and (max-width: 480px) {
+	
+	body {
+		margin: 0; 
+	}
+	#nav {
+		float: left;
+	}	
+	#nav a {
+		display: inline;
+		}
+	#nav ul {
+		list-style: none;
+	}
+	
+	#homeimg {
+	display: none;
+}
+	#twitter, #twitter1 {
+		display: none;
+	}
+	#footer {
+	padding-top: 2%;
+	margin-left: 10%;
+	float: left;
+}
+	#col-2 {
+		display: none;
+	}
+
+
+	#homehead1 {
+	margin-top: 25%;
+	width: 100%;
+}
+
+#homehead2 {
+	width: 100%;
+}
+
+#homehead1 p {
+	font-size: 60px;
+	float: left;
+	text-align: left; 
+	text-transform: uppercase; 
+}
+
+#homehead2 p {
+	font-size: 60px;
+	float: left;
+	margin-right: 10%;
+	text-transform: uppercase; 
+}
+	#homewords p {
+	font-size: 19px;
+	float: left;
+	text-transform: capitalize; 
+}
+}
+
+
+
+
